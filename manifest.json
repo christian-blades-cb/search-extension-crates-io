@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Crates.io Search",
+    "version": "1.0",
+
+    "description": "Adds a search engine which searches crates.io for Rust crates",
+    "applications": {
+	"gecko": {
+	    "strict_min_version": "55"
+	}
+    },
+    "chrome_settings_overrides": {
+	"search_provider": {
+	    "name": "crates.io",
+	    "search_url": "https://crates.io/search?q={searchTerms}",
+	    "keyword": "crate",
+	    "favicon_url": "https://crates.io/favicon.ico",
+	    "is_default": false,
+	    "encoding": "UTF-8"
+	}
+    }
+}
