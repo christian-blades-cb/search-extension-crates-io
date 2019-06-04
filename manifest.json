@@ -6,7 +6,7 @@
     "description": "Adds a search engine which searches crates.io for Rust crates",
     "applications": {
 	"gecko": {
-	    "strict_min_version": "55"
+	    "strict_min_version": "65.0"
 	}
     },
     "chrome_settings_overrides": {
