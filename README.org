@@ -1,0 +1,7 @@
+* Crates.io Search Extension
+
+A browser search extension for finding crates on https://crates.io
+
+** Firefox
+
+   https://addons.mozilla.org/en-US/firefox/addon/crates-io-search/
